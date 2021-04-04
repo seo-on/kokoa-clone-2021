@@ -8,11 +8,40 @@
     border-top: 1px solid rgba(0,0,0,0.2)
 }
 
-.nav_list {
+.nav__list {
     display: flex;
     justify-content: space-between;
 }
 
-.nav_link {
+.nav__link {
+    position: relative;
     color: #2e363e;
+}
+
+.nav__notification {
+    background-color: tomato;
+    width: 25px;
+    height: 25px; 
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    left: 20px;
+    bottom: 15px;
+}
+
+.nav__dot {
+    width: 5px;
+    height:5px;
+    background-color: tomato;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    position: absolute;
+    right: -3px;
+    bottom: 30px;
 }
