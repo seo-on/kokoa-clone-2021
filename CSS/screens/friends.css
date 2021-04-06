@@ -3,7 +3,8 @@
     display: block;
     background-color: #fafafa;
     padding: 15px 0px;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
+    margin-top: -10px;
 }
 
 #friends-display-link i {
