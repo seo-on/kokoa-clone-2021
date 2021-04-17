@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Friends - Kokoa Clone</title>
+    <title>Chat - Kokoa Clone</title>
 </head>
 <body>
     <div class="status-bar">
@@ -24,10 +24,13 @@
     </div>
 
     <header class="screen-header">
-        <h1 class="screen-header__title">Friends</h1>
+        <h1 class="screen-header__title">Chat</h1>
         <div class="screen-header__icons">
             <span>
                 <i class="fas fa-search fa-lg"></i>
+            </span>
+            <span>
+                <i class="far fa-comment-dots fa-lg"></i>
             </span>
             <span>
                 <i class="fas fa-music fa-lg"></i>
@@ -38,59 +41,36 @@
         </div>
     </header>
 
-    <a id="friends-display-link">
-        <i class="fas fa-info-circle"></i>
-        Friends' Names display
-        <i class="fas fa-chevron-right"></i>
-    </a>
-
-    <main class="friends-screen">
-        <div class="user-component">
-            <div class="user-component__column">
-                <img src="https://avatars.githubusercontent.com/u/43350076?s=400&u=6d7911139dfdc13eef5d74d93c37c69ca55ddcd3&v=4"
-                class="user-component__avatar user-component__avatar--xl">
-                <div class="user-component__text">
-                    <h4 class="user-component__title">Seo-on</h4>
-                    <!--<h6 class="user-component__subtitle">please check My Kokoa Account Info</h6>-->
-                </div>
-            </div>
-            <div class="user-component__column">
-            </div>
-        </div>
-            <div class="friends-screen__channel">
-                <div class="friends-screen__channel-header">
-                    <span>Channel</span>
-                    <i class="fas fa-chevron-up fa-xs"></i>
-                </div>
+    <main class="main-screen">
+        <a href="chat.html">
             <div class="user-component">
                 <div class="user-component__column">
                     <img src="https://avatars.githubusercontent.com/u/43350076?s=400&u=6d7911139dfdc13eef5d74d93c37c69ca55ddcd3&v=4"
-                    class="user-component__avatar user-component__avatar--sm">
+                    class="user-component__avatar user-component__avatar">
                     <div class="user-component__text">
-                        <h4 class="user-component__title user-component__title--not-bold">Channel</h4>
+                        <h4 class="user-component__title">Seo-on</h4>
+                        <h6 class="user-component__subtitle">please check My Kokoa Account Info</h6>
                     </div>
                 </div>
                 <div class="user-component__column">
-                    <span>2</span>
-                    <i class="fas fa-chevron-right fa-xs"></i>
+                    <span class="user-component__time">21:22</span>
+                    <div class="badge">1</div>
                 </div>
             </div>
-        </div>
+        </a>
     </main>
 
     <nav class="nav">
         <ul class="nav__list">
             <li class="nav__btn">
                 <a href="friends.html" class="nav__link">
-                    <i class="fas fa-user fa-2x">
-                    </i>
+                    <i class="far fa-user fa-2x"></i>
                 </a>
             </li>
             <li class="nav__btn">
                 <a href="chats.html" class="nav__link">
                     <span class="nav__notification badge">1</span>
-                        <i class="far fa-comment fa-2x">
-                         </i>
+                        <i class="fas fa-comment fa-2x"></i>
                  </a>
             </li>
             <li class="nav__btn">

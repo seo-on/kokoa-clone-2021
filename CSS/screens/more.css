@@ -1,0 +1,40 @@
+.suggestion {
+    margin-top: 50px;
+    border-top: var(--main-border);
+    padding-top: 40px;
+}
+
+.suggestion__title {
+    margin-bottom: 30px;
+}
+
+.suggestion__icons {
+    display: flex;
+}
+
+.suggestion__icon {
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.suggestion__img {
+    height: 60px;
+    width: 60px;
+    background-color: var(--yellow);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.suggestion__img i {
+    font-size: 32px;
+    color: white;
+}
+
+.user-component__subtitle i {
+    color: red;
+}

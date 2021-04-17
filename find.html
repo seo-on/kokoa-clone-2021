@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Friends - Kokoa Clone</title>
+    <title>Find - Kokoa Clone</title>
 </head>
 <body>
     <div class="status-bar">
@@ -24,13 +24,10 @@
     </div>
 
     <header class="screen-header">
-        <h1 class="screen-header__title">Friends</h1>
+        <h1 class="screen-header__title">Find</h1>
         <div class="screen-header__icons">
             <span>
                 <i class="fas fa-search fa-lg"></i>
-            </span>
-            <span>
-                <i class="fas fa-music fa-lg"></i>
             </span>
             <span>
                 <i class="fas fa-cog fa-lg"></i>
@@ -38,41 +35,47 @@
         </div>
     </header>
 
-    <a id="friends-display-link">
-        <i class="fas fa-info-circle"></i>
-        Friends' Names display
-        <i class="fas fa-chevron-right"></i>
-    </a>
-
-    <main class="friends-screen">
-        <div class="user-component">
-            <div class="user-component__column">
-                <img src="https://avatars.githubusercontent.com/u/43350076?s=400&u=6d7911139dfdc13eef5d74d93c37c69ca55ddcd3&v=4"
-                class="user-component__avatar user-component__avatar--xl">
-                <div class="user-component__text">
-                    <h4 class="user-component__title">Seo-on</h4>
-                    <!--<h6 class="user-component__subtitle">please check My Kokoa Account Info</h6>-->
-                </div>
-            </div>
-            <div class="user-component__column">
-            </div>
+    <main class="main-screen">
+        <div class="icon-row">
+            <div class="icon-row__icon">
+                <i class="fas fa-qrcode"></i><span>QR Code</span></div>
+            <div class="icon-row__icon">
+                <i class="far fa-address-book"></i><span>Add by Contacts</span></div>
+            <div class="icon-row__icon">
+                <i class="fas fa-fingerprint"></i><span>Add by ID</span></div>
+            <div class="icon-row__icon">
+                <i class="far fa-envelope"></i><span>Invite</span></div>
         </div>
-            <div class="friends-screen__channel">
-                <div class="friends-screen__channel-header">
-                    <span>Channel</span>
-                    <i class="fas fa-chevron-up fa-xs"></i>
-                </div>
-            <div class="user-component">
-                <div class="user-component__column">
-                    <img src="https://avatars.githubusercontent.com/u/43350076?s=400&u=6d7911139dfdc13eef5d74d93c37c69ca55ddcd3&v=4"
-                    class="user-component__avatar user-component__avatar--sm">
-                    <div class="user-component__text">
-                        <h4 class="user-component__title user-component__title--not-bold">Channel</h4>
-                    </div>
-                </div>
-                <div class="user-component__column">
-                    <span>2</span>
+
+        <div class="recommended-friends">
+            <h6 class="recommendede-friends__title">Recommended Friends</h6>
+            <span>You have no recommended friends.</span>
+        </div>
+
+        <div class="open-chat">
+            <div class="open-chat__title">Open Chat</div>
+                <span>Go to Openchat Home
                     <i class="fas fa-chevron-right fa-xs"></i>
+                </span>
+        </div>
+
+        <div class="open-post">
+            <div class="open-post__column">
+                <h5 class="open-post__title">#TWICE</h5>
+                <h6 class="open-post__hashtags">#twice#once#friends</h6>
+                <div class="open-post__members">
+                    <img src="#" />
+                    <span class="open-post__members-count">808 members</span>
+                    <div class="divider"></div>
+                    <span class="open-post__members-status">Active</span>
+                </div>
+            </div>
+            <div class="open-post__column">
+                <div class="open-post__photo">
+                    <img src="#" />
+                    <div class="open-post__heart-count">
+                        <i class="fas fa-heart fa-xs"></i><span>389</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -82,15 +85,13 @@
         <ul class="nav__list">
             <li class="nav__btn">
                 <a href="friends.html" class="nav__link">
-                    <i class="fas fa-user fa-2x">
-                    </i>
+                    <i class="far fa-user fa-2x"></i>
                 </a>
             </li>
             <li class="nav__btn">
                 <a href="chats.html" class="nav__link">
                     <span class="nav__notification badge">1</span>
-                        <i class="far fa-comment fa-2x">
-                         </i>
+                        <i class="far fa-comment fa-2x"></i>
                  </a>
             </li>
             <li class="nav__btn">

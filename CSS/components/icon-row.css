@@ -1,0 +1,28 @@
+.icon-row {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-row__second-line {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+#second {
+    margin-right: 253px;
+}
+
+.icon-row__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-row__icon i {
+    font-size: 35px;
+}
+.icon-row__icon span {
+    margin-top: 10px;
+}
